@@ -20,7 +20,7 @@ const Accordion = ({ title, content }) => {
   return (
     <div className="accordion">
       <div className="accordion-header" onClick={toggleAccordion}>
-        <h2>{title}</h2>
+        <h3>{title}</h3>
       </div>
       {contentDisplay}
     </div>
